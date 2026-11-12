@@ -1,0 +1,58 @@
+
+body {
+    background-color: #d4e5f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    background-color: white;
+    width: 320px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #243b55;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.opcoes {
+    text-align: left;
+    margin: 20px;
+}
+
+.opcoes label {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #78afda;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a085;
+}
